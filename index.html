@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aegis Sanctuary Corporation - Proteção física e digital contra colapsos globais.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <title>Aegis Sanctuary | Segurança Total</title>
+    <link rel="preload" href="images/hero.png" as="image">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">AEGIS SANCTUARY</div>
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        <nav class="nav">
+            <a href="#hero">Início</a>
+            <a href="#fisico">Bunker</a>
+            <a href="#digital">Software</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <img src="images/hero.png" alt="Cidade devastada por vírus biológico e colapso digital" class="hero-img"
+                loading="eager">
+            <div class="hero-content">
+                <h1>Quando o mundo colapsa, nós ativamos a proteção total.</h1>
+                <p>Um vírus biológico consome a humanidade. Um vírus digital destrói economias. A Aegis Sanctuary
+                    protege o que ainda importa.</p>
+                <a href="#fisico" class="btn">Explorar Soluções</a>
+            </div>
+        </section>
+        <section class="produto" id="fisico">
+            <div class="produto-img">
+                <img src="images/fisico.png" alt="Bunker subterrâneo de alta segurança Aegis Vault-X" loading="lazy">
+            </div>
+            <div class="produto-content">
+                <h2>Aegis Vault-X</h2>
+                <p>Estrutura subterrânea autossustentável com filtragem biológica multicamada, blindagem estrutural
+                    reforçada e autonomia energética total.</p>
+                <a href="#contato" class="btn">Solicitar Projeto</a>
+            </div>
+        </section>
+        <section class="produto dark" id="digital">
+            <div class="produto-content">
+                <h2>Aegis Sentinel X</h2>
+                <p>Plataforma de ciberdefesa com inteligência adaptativa capaz de detectar, analisar e neutralizar
+                    ameaças antes do impacto.</p>
+                <a href="#contato" class="btn">Blindar Infraestrutura</a>
+            </div>
+            <div class="produto-img">
+                <img src="images/digital.png" alt="Interface do software Aegis Sentinel X protegendo servidores"
+                    loading="lazy">
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <h2>Prepare-se antes que seja tarde.</h2>
+            <p>Tratamento de dados conforme LGPD e GDPR.</p>
+            <form autocomplete="off">
+                <input type="text" placeholder="Seu nome completo" required>
+                <label class="checkbox">
+                    <input type="checkbox" required> Concordo com o tratamento dos meus dados.
+                </label>
+                <button type="submit" class="btn">Solicitar Consultoria</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2026 Aegis Sanctuary Corporation</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
